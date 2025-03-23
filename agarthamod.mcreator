@@ -183,7 +183,8 @@
           "src/main/java/de/jotibi/agarthamod/item/AgarthaMapItem.java",
           "src/main/resources/assets/agarthamod/models/item/agartha_map.json"
         ]
-      }
+      },
+      "path": "~/Items"
     },
     {
       "name": "AgarthaPlayerLeavesDimension",
@@ -278,7 +279,8 @@
           "src/main/resources/assets/agarthamod/models/item/agartha_key.json",
           "src/main/java/de/jotibi/agarthamod/item/AgarthaKeyItem.java"
         ]
-      }
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
@@ -358,6 +360,10 @@
       },
       {
         "name": "Dimension",
+        "children": []
+      },
+      {
+        "name": "Items",
         "children": []
       }
     ]
