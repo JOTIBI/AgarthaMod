@@ -98,6 +98,36 @@
         ]
       },
       "path": "~/Rawmilk"
+    },
+    {
+      "name": "PositivEnergieEffectStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "positiv_energie_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/de/jotibi/agarthamod/procedures/PositivEnergieEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PositivEnergie",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "positiv_energie",
+      "metadata": {
+        "files": [
+          "src/main/java/de/jotibi/agarthamod/potion/PositivEnergieMobEffect.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -112,6 +142,7 @@
     "en_us": {
       "item_group.agarthamod.agartha": "Agartha",
       "item.agarthamod.raw_milk": "Raw Milk",
+      "effect.agarthamod.positiv_energie": "Positive Energie",
       "item.agarthamod.coolbottle": "Cool Bottle",
       "block.agarthamod.overgrownsandstone": "Overgrown Sandstone"
     }

@@ -26,6 +26,7 @@ import java.util.Collection;
 import java.util.ArrayList;
 
 import de.jotibi.agarthamod.init.AgarthamodModTabs;
+import de.jotibi.agarthamod.init.AgarthamodModMobEffects;
 import de.jotibi.agarthamod.init.AgarthamodModItems;
 import de.jotibi.agarthamod.init.AgarthamodModBlocks;
 
@@ -45,6 +46,8 @@ public class AgarthamodMod {
 		AgarthamodModItems.REGISTRY.register(modEventBus);
 
 		AgarthamodModTabs.REGISTRY.register(modEventBus);
+
+		AgarthamodModMobEffects.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

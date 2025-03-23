@@ -1,0 +1,22 @@
+{
+  "_fv": 69,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Positive Energie",
+    "icon": "agartha_positive_energie_logo",
+    "color": {
+      "value": -16711851,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": false,
+    "onStarted": {
+      "name": "PositivEnergieEffectStartedapplied"
+    }
+  }
+}
