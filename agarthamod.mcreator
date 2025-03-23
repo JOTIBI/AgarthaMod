@@ -27,15 +27,16 @@
       }
     },
     {
-      "name": "Overgrownsandstonewhenfire",
-      "type": "code",
-      "compiles": false,
-      "locked_code": true,
-      "registry_name": "overgrownsandstonewhenfire",
+      "name": "OvergrownsandstoneOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overgrownsandstone_on_tick_update",
       "metadata": {
         "files": [
-          "src/main/java/de/jotibi/agarthamod/Overgrownsandstonewhenfire.java"
-        ]
+          "src/main/java/de/jotibi/agarthamod/procedures/OvergrownsandstoneOnTickUpdateProcedure.java"
+        ],
+        "dependencies": []
       }
     }
   ],
