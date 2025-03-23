@@ -2,7 +2,7 @@
   "_fv": 69,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Welcometoagartha",
+    "achievementName": "Welcome to Agartha",
     "achievementDescription": "You found Agartha!",
     "achievementIcon": {
       "value": "CUSTOM:RawMilk"
