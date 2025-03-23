@@ -18,7 +18,7 @@ import de.jotibi.agarthamod.init.AgarthamodModBlocks;
 
 public class OvergrownsandstoneBlock extends Block {
 	public OvergrownsandstoneBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().sound(SoundType.STONE).strength(1f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(1f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override
