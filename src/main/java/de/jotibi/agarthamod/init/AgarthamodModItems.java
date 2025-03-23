@@ -12,11 +12,13 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import de.jotibi.agarthamod.item.RawMilkItem;
 import de.jotibi.agarthamod.AgarthamodMod;
 
 public class AgarthamodModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(AgarthamodMod.MODID);
 	public static final DeferredItem<Item> OVERGROWNSANDSTONE = block(AgarthamodModBlocks.OVERGROWNSANDSTONE);
+	public static final DeferredItem<Item> RAW_MILK = REGISTRY.register("raw_milk", RawMilkItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

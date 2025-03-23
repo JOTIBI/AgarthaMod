@@ -38,6 +38,37 @@
         ],
         "dependencies": []
       }
+    },
+    {
+      "name": "RawMilk",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_milk",
+      "metadata": {
+        "files": [
+          "src/main/java/de/jotibi/agarthamod/item/RawMilkItem.java",
+          "src/main/resources/assets/agarthamod/models/item/raw_milk.json"
+        ]
+      }
+    },
+    {
+      "name": "RawMilkPropertyValueProvider",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_milk_property_value_provider",
+      "metadata": {
+        "files": [
+          "src/main/java/de/jotibi/agarthamod/procedures/RawMilkPropertyValueProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -51,6 +82,7 @@
   "language_map": {
     "en_us": {
       "item_group.agarthamod.agartha": "Agartha",
+      "item.agarthamod.raw_milk": "Raw Milk",
       "block.agarthamod.overgrownsandstone": "Overgrown Sandstone"
     }
   },
