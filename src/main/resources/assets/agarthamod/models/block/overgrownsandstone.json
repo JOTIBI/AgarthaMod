@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "minecraft:block/sandstone_bottom",
+    "top": "agarthamod:block/overgrown_sandstone_top",
+    "side": "agarthamod:block/overgrown_sandstone_side",
+    "overlay": "agarthamod:block/overgrown_sandstone_side",
+    "particle": "minecraft:block/sandstone_bottom"
+  },
+  "render_type": "cutout_mipped"
+}

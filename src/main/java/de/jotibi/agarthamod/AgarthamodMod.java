@@ -25,6 +25,10 @@ import java.util.HashMap;
 import java.util.Collection;
 import java.util.ArrayList;
 
+import de.jotibi.agarthamod.init.AgarthamodModTabs;
+import de.jotibi.agarthamod.init.AgarthamodModItems;
+import de.jotibi.agarthamod.init.AgarthamodModBlocks;
+
 @Mod("agarthamod")
 public class AgarthamodMod {
 	public static final Logger LOGGER = LogManager.getLogger(AgarthamodMod.class);
@@ -35,6 +39,12 @@ public class AgarthamodMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+
+		AgarthamodModBlocks.REGISTRY.register(modEventBus);
+
+		AgarthamodModItems.REGISTRY.register(modEventBus);
+
+		AgarthamodModTabs.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

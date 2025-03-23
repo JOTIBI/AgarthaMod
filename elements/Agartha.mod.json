@@ -1,0 +1,11 @@
+{
+  "_fv": 69,
+  "_type": "tab",
+  "definition": {
+    "name": "Agartha",
+    "icon": {
+      "value": "Items.NETHER_STAR"
+    },
+    "showSearch": true
+  }
+}

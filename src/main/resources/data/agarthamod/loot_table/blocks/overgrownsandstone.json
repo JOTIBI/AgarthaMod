@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "agarthamod:blocks/overgrownsandstone",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "agarthamod:overgrownsandstone"
+        }
+      ]
+    }
+  ]
+}
