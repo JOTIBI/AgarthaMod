@@ -93,7 +93,7 @@
     {
       "name": "PositivEnergieEffectStartedapplied",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "positiv_energie_effect_startedapplied",
       "metadata": {
