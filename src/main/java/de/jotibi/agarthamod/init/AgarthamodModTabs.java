@@ -20,5 +20,6 @@ public class AgarthamodModTabs {
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> AGARTHA = REGISTRY.register("agartha",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.agarthamod.agartha")).icon(() -> new ItemStack(Items.NETHER_STAR)).displayItems((parameters, tabData) -> {
 				tabData.accept(AgarthamodModBlocks.OVERGROWNSANDSTONE.get().asItem());
+				tabData.accept(AgarthamodModItems.RAW_MILK.get());
 			}).withSearchBar().build());
 }
