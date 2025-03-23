@@ -14,7 +14,8 @@
           "src/main/resources/assets/agarthamod/models/block/overgrownsandstone.json",
           "src/main/java/de/jotibi/agarthamod/block/OvergrownsandstoneBlock.java"
         ]
-      }
+      },
+      "path": "~/Bloecke"
     },
     {
       "name": "RawMilk",
@@ -105,7 +106,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Effekte"
     },
     {
       "name": "PositivEnergie",
@@ -117,7 +119,8 @@
         "files": [
           "src/main/java/de/jotibi/agarthamod/potion/PositivEnergieMobEffect.java"
         ]
-      }
+      },
+      "path": "~/Effekte"
     },
     {
       "name": "AgarthaMod",
@@ -149,7 +152,8 @@
           "src/main/java/de/jotibi/agarthamod/item/AgarthaItem.java",
           "src/main/resources/assets/agarthamod/models/item/agartha.json"
         ]
-      }
+      },
+      "path": "~/Dimension"
     },
     {
       "name": "Agarthaforest",
@@ -165,7 +169,8 @@
           "src/main/java/de/jotibi/agarthamod/world/features/treedecorators/AgarthaforestTrunkDecorator.java",
           "src/main/resources/data/agarthamod/worldgen/biome/agarthaforest.json"
         ]
-      }
+      },
+      "path": "~/Biome"
     }
   ],
   "variable_elements": [],
@@ -200,6 +205,26 @@
     "children": [
       {
         "name": "Rawmilk",
+        "children": []
+      },
+      {
+        "name": "Effekte",
+        "children": []
+      },
+      {
+        "name": "Biome",
+        "children": []
+      },
+      {
+        "name": "Dimension",
+        "children": []
+      },
+      {
+        "name": "Mobs",
+        "children": []
+      },
+      {
+        "name": "Bloecke",
         "children": []
       }
     ]
