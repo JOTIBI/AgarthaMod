@@ -178,6 +178,7 @@
       "~CUSTOM:Overgrownsandstone"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.CRACKED_DEEPSLATE_TILES",
       "~Blocks.SANDSTONE#0",
       "~CUSTOM:Overgrownsandstone"
     ]
