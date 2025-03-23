@@ -266,6 +266,19 @@
         ]
       },
       "path": "~/Dimension"
+    },
+    {
+      "name": "AgarthaKey",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agartha_key",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/agarthamod/models/item/agartha_key.json",
+          "src/main/java/de/jotibi/agarthamod/item/AgarthaKeyItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -307,7 +320,7 @@
   "language_map": {
     "en_us": {
       "item.agarthamod.agartha_map": "Agartha Map",
-      "advancements.welcometoagartha.title": "Welcome to Agartha",
+      "advancements.welcometoagartha.title": "Welcometoagartha",
       "item.agarthamod.raw_milk": "Raw Milk",
       "effect.agarthamod.positiv_energie": "Positive Energie",
       "subtitles.agarthamusic": "",
@@ -324,11 +337,11 @@
     "name": "~",
     "children": [
       {
-        "name": "Rawmilk",
+        "name": "Effekte",
         "children": []
       },
       {
-        "name": "Effekte",
+        "name": "Bloecke",
         "children": []
       },
       {
@@ -336,7 +349,7 @@
         "children": []
       },
       {
-        "name": "Dimension",
+        "name": "Rawmilk",
         "children": []
       },
       {
@@ -344,7 +357,7 @@
         "children": []
       },
       {
-        "name": "Bloecke",
+        "name": "Dimension",
         "children": []
       }
     ]

@@ -27,6 +27,7 @@ public class AgarthamodModTabs {
 				tabData.accept(AgarthamodModItems.RAW_MILK.get());
 				tabData.accept(AgarthamodModItems.COOLBOTTLE.get());
 				tabData.accept(AgarthamodModItems.AGARTHA_MAP.get());
+				tabData.accept(AgarthamodModItems.AGARTHA_KEY.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
