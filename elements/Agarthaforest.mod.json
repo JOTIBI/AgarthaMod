@@ -78,7 +78,12 @@
     "defaultFeatures": [
       "Caves",
       "Ores",
-      "FrozenTopLayer"
+      "FrozenTopLayer",
+      "ForestGrass",
+      "ForestFlowers",
+      "JungleGrass",
+      "PlainsTallGrass",
+      "JungleTreeForest"
     ],
     "spawnStronghold": true,
     "spawnMineshaft": false,
