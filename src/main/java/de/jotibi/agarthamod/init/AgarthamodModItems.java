@@ -14,7 +14,6 @@ import net.minecraft.world.item.BlockItem;
 
 import de.jotibi.agarthamod.item.RawMilkItem;
 import de.jotibi.agarthamod.item.CoolbottleItem;
-import de.jotibi.agarthamod.item.AgarthaItem;
 import de.jotibi.agarthamod.AgarthamodMod;
 
 public class AgarthamodModItems {
