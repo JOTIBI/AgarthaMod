@@ -20,7 +20,7 @@
     "isItemTinted": false,
     "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "CUTOUT_MIPPED",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -59,7 +59,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "NONE"
+      "value": "LEAVES"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -74,8 +74,8 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 0,
-    "fireSpreadSpeed": 0,
+    "flammability": 60,
+    "fireSpreadSpeed": 30,
     "isLadder": false,
     "slipperiness": 0.6,
     "speedFactor": 1.0,

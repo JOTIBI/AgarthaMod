@@ -7,5 +7,5 @@
     "overlay": "agarthamod:block/overgrown_sandstone_side",
     "particle": "minecraft:block/sandstone_bottom"
   },
-  "render_type": "cutout_mipped"
+  "render_type": "solid"
 }

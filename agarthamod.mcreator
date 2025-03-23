@@ -56,6 +56,18 @@
           }
         ]
       }
+    },
+    {
+      "name": "Overgrownsandstonewhenfire",
+      "type": "code",
+      "compiles": false,
+      "locked_code": true,
+      "registry_name": "overgrownsandstonewhenfire",
+      "metadata": {
+        "files": [
+          "src/main/java/de/jotibi/agarthamod/Overgrownsandstonewhenfire.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
