@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "agarthamod:item/milk_bottle"
+    "layer0": "minecraft:item/flint_and_steel"
   }
 }

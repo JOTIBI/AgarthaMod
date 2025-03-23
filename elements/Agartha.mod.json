@@ -46,7 +46,7 @@
         "value": "TOOLS"
       }
     ],
-    "texture": "milk_bottle",
+    "texture": "minecraft:flint_and_steel",
     "portalTexture": "minecraft:blue_ice",
     "enablePortal": true
   }
