@@ -121,34 +121,6 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "spawnEntries": [
-      {
-        "entity": {
-          "value": "EntityFox"
-        },
-        "minGroup": 4,
-        "maxGroup": 4,
-        "weight": 20,
-        "spawnType": "monster"
-      },
-      {
-        "entity": {
-          "value": "EntityOcelot"
-        },
-        "minGroup": 4,
-        "maxGroup": 4,
-        "weight": 20,
-        "spawnType": "monster"
-      },
-      {
-        "entity": {
-          "value": "EntityAllay"
-        },
-        "minGroup": 4,
-        "maxGroup": 4,
-        "weight": 20,
-        "spawnType": "monster"
-      }
-    ]
+    "spawnEntries": []
   }
 }
