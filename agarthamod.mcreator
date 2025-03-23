@@ -150,11 +150,30 @@
           "src/main/resources/assets/agarthamod/models/item/agartha.json"
         ]
       }
+    },
+    {
+      "name": "Agarthaforest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agarthaforest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/agarthamod/worldgen/placed_feature/agarthaforest_tree.json",
+          "src/main/java/de/jotibi/agarthamod/world/features/treedecorators/AgarthaforestLeaveDecorator.java",
+          "src/main/resources/data/agarthamod/worldgen/configured_feature/agarthaforest_tree.json",
+          "src/main/java/de/jotibi/agarthamod/world/features/treedecorators/AgarthaforestTrunkDecorator.java",
+          "src/main/resources/data/agarthamod/worldgen/biome/agarthaforest.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:Agarthaforest"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:Overgrownsandstone"
     ],
@@ -165,6 +184,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "biome.agarthamod.agarthaforest": "Agarthaforest",
       "item.agarthamod.raw_milk": "Raw Milk",
       "item_group.agarthamod.agartha_mod": "Agartha Mod",
       "effect.agarthamod.positiv_energie": "Positive Energie",
