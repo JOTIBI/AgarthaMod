@@ -9,7 +9,7 @@
     ],
     "worldGenType": "Nether like gen",
     "mainFillerBlock": {
-      "value": "Blocks.CRACKED_DEEPSLATE_TILES"
+      "value": "Blocks.SANDSTONE#0"
     },
     "fluidBlock": {
       "value": "Blocks.FLOWING_WATER"
