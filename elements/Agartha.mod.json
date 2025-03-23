@@ -29,7 +29,7 @@
     "hasSkyLight": false,
     "imitateOverworldBehaviour": true,
     "onPlayerEntersDimension": {
-      "name": "PositivEnergieEffectStartedapplied"
+      "name": "AgarthaPlayerEntersDimensionsound"
     },
     "onPlayerLeavesDimension": {
       "name": "AgarthaPlayerLeavesDimension"

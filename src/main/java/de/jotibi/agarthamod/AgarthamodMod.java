@@ -26,6 +26,7 @@ import java.util.Collection;
 import java.util.ArrayList;
 
 import de.jotibi.agarthamod.init.AgarthamodModTabs;
+import de.jotibi.agarthamod.init.AgarthamodModSounds;
 import de.jotibi.agarthamod.init.AgarthamodModMobEffects;
 import de.jotibi.agarthamod.init.AgarthamodModItems;
 import de.jotibi.agarthamod.init.AgarthamodModBlocks;
@@ -40,7 +41,7 @@ public class AgarthamodMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
-
+		AgarthamodModSounds.REGISTRY.register(modEventBus);
 		AgarthamodModBlocks.REGISTRY.register(modEventBus);
 
 		AgarthamodModItems.REGISTRY.register(modEventBus);

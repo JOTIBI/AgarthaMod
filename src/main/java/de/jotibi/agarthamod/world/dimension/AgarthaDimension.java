@@ -15,8 +15,8 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.client.renderer.DimensionSpecialEffects;
 
-import de.jotibi.agarthamod.procedures.PositivEnergieEffectStartedappliedProcedure;
 import de.jotibi.agarthamod.procedures.AgarthaPlayerLeavesDimensionProcedure;
+import de.jotibi.agarthamod.procedures.AgarthaPlayerEntersDimensionsoundProcedure;
 
 @EventBusSubscriber
 public class AgarthaDimension {
@@ -50,7 +50,7 @@ public class AgarthaDimension {
 			AgarthaPlayerLeavesDimensionProcedure.execute(entity);
 		}
 		if (event.getTo() == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("agarthamod:agartha"))) {
-			PositivEnergieEffectStartedappliedProcedure.execute(entity);
+			AgarthaPlayerEntersDimensionsoundProcedure.execute(world, x, y, z, entity);
 		}
 	}
 }

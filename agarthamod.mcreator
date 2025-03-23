@@ -218,10 +218,67 @@
         ]
       },
       "path": "~/Biome"
+    },
+    {
+      "name": "Welcometoagartha",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "welcometoagartha",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/agarthamod/advancement/welcometoagartha.json"
+        ]
+      },
+      "path": "~/Dimension"
+    },
+    {
+      "name": "AgarthaPlayerEntersDimensionsound",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agartha_player_enters_dimensionsound",
+      "metadata": {
+        "files": [
+          "src/main/java/de/jotibi/agarthamod/procedures/AgarthaPlayerEntersDimensionsoundProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimension"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "agarthamusic",
+      "files": [
+        "ssstik.io_1742764586933"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
   "tag_elements": {
     "BIOMES:minecraft:has_structure/stronghold": [
       "~CUSTOM:Agarthaforest"
@@ -241,20 +298,26 @@
       "~Blocks.CRACKED_DEEPSLATE_TILES",
       "~Blocks.SANDSTONE#0",
       "~CUSTOM:Overgrownsandstone"
+    ],
+    "BIOMES:minecraft:has_structure/village_plains": [
+      "~CUSTOM:Agarthaplains"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "biome.agarthamod.agarthaforest": "Agarthaforest",
       "item.agarthamod.agartha_map": "Agartha Map",
+      "advancements.welcometoagartha.title": "Welcometoagartha",
       "item.agarthamod.raw_milk": "Raw Milk",
-      "item_group.agarthamod.agartha_mod": "Agartha Mod",
       "effect.agarthamod.positiv_energie": "Positive Energie",
+      "subtitles.agarthamusic": "",
       "biome.agarthamod.agarthaplains": "Agarthaplains",
       "item.agarthamod.coolbottle": "Cool Bottle",
       "item.agarthamod.agartha": "Agartha Portal Igniter",
-      "block.agarthamod.overgrownsandstone": "Overgrown Sandstone"
+      "biome.agarthamod.agarthaforest": "Agarthaforest",
+      "item_group.agarthamod.agartha_mod": "Agartha Mod",
+      "block.agarthamod.overgrownsandstone": "Overgrown Sandstone",
+      "advancements.welcometoagartha.descr": "You found Agartha!"
     }
   },
   "foldersRoot": {
