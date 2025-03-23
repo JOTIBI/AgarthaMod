@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "agarthamod:block/agartha_portal_ew"
+    },
+    "axis=x": {
+      "model": "agarthamod:block/agartha_portal_ns"
+    }
+  }
+}
