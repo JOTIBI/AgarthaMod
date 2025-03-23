@@ -184,6 +184,25 @@
           "src/main/resources/assets/agarthamod/models/item/agartha_map.json"
         ]
       }
+    },
+    {
+      "name": "AgarthaPlayerLeavesDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agartha_player_leaves_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/de/jotibi/agarthamod/procedures/AgarthaPlayerLeavesDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dimension"
     }
   ],
   "variable_elements": [],
@@ -194,6 +213,12 @@
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:Overgrownsandstone"
+    ],
+    "BIOMES:minecraft:has_structure/jungle_temple": [
+      "~CUSTOM:Agarthaforest"
+    ],
+    "BIOMES:minecraft:has_structure/desert_pyramid": [
+      "~CUSTOM:Agarthaforest"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~Blocks.CRACKED_DEEPSLATE_TILES",

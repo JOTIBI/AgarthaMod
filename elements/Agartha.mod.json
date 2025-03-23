@@ -25,6 +25,12 @@
     "sleepResult": "ALLOW",
     "hasSkyLight": false,
     "imitateOverworldBehaviour": true,
+    "onPlayerEntersDimension": {
+      "name": "PositivEnergieEffectStartedapplied"
+    },
+    "onPlayerLeavesDimension": {
+      "name": "AgarthaPlayerLeavesDimension"
+    },
     "portalFrame": {
       "value": "CUSTOM:Overgrownsandstone"
     },

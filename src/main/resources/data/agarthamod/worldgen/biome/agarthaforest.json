@@ -11,15 +11,27 @@
     "water_fog_color": -3342337
   },
   "spawners": {
-    "monster": [],
-    "creature": [
+    "monster": [
       {
-        "type": "cow",
+        "type": "fox",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "ocelot",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "allay",
         "weight": 20,
         "minCount": 4,
         "maxCount": 4
       }
     ],
+    "creature": [],
     "ambient": [],
     "axolotls": [],
     "underground_water_creature": [],
