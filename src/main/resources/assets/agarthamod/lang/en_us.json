@@ -1,6 +1,7 @@
 {
-  "item_group.agarthamod.agartha": "Agartha Mod",
   "item.agarthamod.raw_milk": "Raw Milk",
+  "item_group.agarthamod.agartha_mod": "Agartha Mod",
   "item.agarthamod.coolbottle": "Cool Bottle",
+  "item.agarthamod.agartha": "Agartha Portal Igniter",
   "block.agarthamod.overgrownsandstone": "Overgrown Sandstone"
 }
