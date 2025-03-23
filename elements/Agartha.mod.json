@@ -4,7 +4,7 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "jungle"
+        "value": "CUSTOM:Agarthaforest"
       }
     ],
     "worldGenType": "Nether like gen",

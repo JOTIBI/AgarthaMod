@@ -6,7 +6,7 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "jungle",
+          "biome": "agarthamod:agarthaforest",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
@@ -173,7 +173,7 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "jungle"
+                "agarthamod:agarthaforest"
               ]
             },
             "then_run": {
@@ -202,17 +202,14 @@
                         "then_run": {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minecraft:grass_block",
-                            "Properties": {
-                              "snowy": "false"
-                            }
+                            "Name": "agarthamod:overgrownsandstone"
                           }
                         }
                       },
                       {
                         "type": "minecraft:block",
                         "result_state": {
-                          "Name": "minecraft:gravel"
+                          "Name": "minecraft:sand"
                         }
                       }
                     ]
@@ -230,7 +227,7 @@
                   "then_run": {
                     "type": "minecraft:block",
                     "result_state": {
-                      "Name": "minecraft:dirt"
+                      "Name": "minecraft:sandstone"
                     }
                   }
                 }
