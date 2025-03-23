@@ -14,6 +14,7 @@ import net.minecraft.world.item.BlockItem;
 
 import de.jotibi.agarthamod.item.RawMilkItem;
 import de.jotibi.agarthamod.item.CoolbottleItem;
+import de.jotibi.agarthamod.item.AgarthaMapItem;
 import de.jotibi.agarthamod.item.AgarthaItem;
 import de.jotibi.agarthamod.AgarthamodMod;
 
@@ -23,6 +24,7 @@ public class AgarthamodModItems {
 	public static final DeferredItem<Item> RAW_MILK = REGISTRY.register("raw_milk", RawMilkItem::new);
 	public static final DeferredItem<Item> COOLBOTTLE = REGISTRY.register("coolbottle", CoolbottleItem::new);
 	public static final DeferredItem<Item> AGARTHA = REGISTRY.register("agartha", AgarthaItem::new);
+	public static final DeferredItem<Item> AGARTHA_MAP = REGISTRY.register("agartha_map", AgarthaMapItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
