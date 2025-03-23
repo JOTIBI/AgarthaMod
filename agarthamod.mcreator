@@ -27,19 +27,6 @@
       }
     },
     {
-      "name": "OvergrownsandstoneOnTickUpdate",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "overgrownsandstone_on_tick_update",
-      "metadata": {
-        "files": [
-          "src/main/java/de/jotibi/agarthamod/procedures/OvergrownsandstoneOnTickUpdateProcedure.java"
-        ],
-        "dependencies": []
-      }
-    },
-    {
       "name": "RawMilk",
       "type": "item",
       "compiles": true,
