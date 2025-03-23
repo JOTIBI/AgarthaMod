@@ -5,6 +5,9 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:Agarthaforest"
+      },
+      {
+        "value": "CUSTOM:Agarthaplains"
       }
     ],
     "worldGenType": "Normal world gen",

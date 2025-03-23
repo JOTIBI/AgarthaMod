@@ -203,6 +203,21 @@
         ]
       },
       "path": "~/Dimension"
+    },
+    {
+      "name": "Agarthaplains",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agarthaplains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/agarthamod/worldgen/configured_feature/agarthaplains_tree.json",
+          "src/main/resources/data/agarthamod/worldgen/placed_feature/agarthaplains_tree.json",
+          "src/main/resources/data/agarthamod/worldgen/biome/agarthaplains.json"
+        ]
+      },
+      "path": "~/Biome"
     }
   ],
   "variable_elements": [],
@@ -215,9 +230,11 @@
       "~CUSTOM:Overgrownsandstone"
     ],
     "BIOMES:minecraft:has_structure/jungle_temple": [
+      "~CUSTOM:Agarthaplains",
       "~CUSTOM:Agarthaforest"
     ],
     "BIOMES:minecraft:has_structure/desert_pyramid": [
+      "~CUSTOM:Agarthaplains",
       "~CUSTOM:Agarthaforest"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
@@ -234,6 +251,7 @@
       "item.agarthamod.raw_milk": "Raw Milk",
       "item_group.agarthamod.agartha_mod": "Agartha Mod",
       "effect.agarthamod.positiv_energie": "Positive Energie",
+      "biome.agarthamod.agarthaplains": "Agarthaplains",
       "item.agarthamod.coolbottle": "Cool Bottle",
       "item.agarthamod.agartha": "Agartha Portal Igniter",
       "block.agarthamod.overgrownsandstone": "Overgrown Sandstone"
