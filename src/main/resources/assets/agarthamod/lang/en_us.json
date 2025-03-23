@@ -1,11 +1,15 @@
 {
-  "biome.agarthamod.agarthaforest": "Agarthaforest",
   "item.agarthamod.agartha_map": "Agartha Map",
+  "item.agarthamod.agartha_key": "Agartha Key",
+  "advancements.welcometoagartha.title": "Welcometoagartha",
   "item.agarthamod.raw_milk": "Raw Milk",
-  "item_group.agarthamod.agartha_mod": "Agartha Mod",
   "effect.agarthamod.positiv_energie": "Positive Energie",
   "subtitles.agarthamusic": "",
+  "biome.agarthamod.agarthaplains": "Agarthaplains",
   "item.agarthamod.coolbottle": "Cool Bottle",
   "item.agarthamod.agartha": "Agartha Portal Igniter",
-  "block.agarthamod.overgrownsandstone": "Overgrown Sandstone"
+  "biome.agarthamod.agarthaforest": "Agarthaforest",
+  "item_group.agarthamod.agartha_mod": "Agartha Mod",
+  "block.agarthamod.overgrownsandstone": "Overgrown Sandstone",
+  "advancements.welcometoagartha.descr": "You found Agartha!"
 }
