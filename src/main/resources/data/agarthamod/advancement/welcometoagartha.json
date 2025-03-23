@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "id": "agarthamod:raw_milk"
+    },
+    "title": {
+      "translate": "advancements.welcometoagartha.title"
+    },
+    "description": {
+      "translate": "advancements.welcometoagartha.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "welcometoagartha_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "agarthamod:agartha"
+      }
+    }
+  }
+}

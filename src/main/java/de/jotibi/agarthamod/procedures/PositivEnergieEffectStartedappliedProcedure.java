@@ -10,8 +10,8 @@ public class PositivEnergieEffectStartedappliedProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.LUCK, 60, 5));
+			_entity.addEffect(new MobEffectInstance(MobEffects.LUCK, 999999, 5));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.SATURATION, 60, 5));
+			_entity.addEffect(new MobEffectInstance(MobEffects.SATURATION, 999999, 5));
 	}
 }

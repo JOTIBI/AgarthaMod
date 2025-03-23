@@ -5,6 +5,9 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:Agarthaforest"
+      },
+      {
+        "value": "CUSTOM:Agarthaplains"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -25,6 +28,12 @@
     "sleepResult": "ALLOW",
     "hasSkyLight": false,
     "imitateOverworldBehaviour": true,
+    "onPlayerEntersDimension": {
+      "name": "AgarthaPlayerEntersDimensionsound"
+    },
+    "onPlayerLeavesDimension": {
+      "name": "AgarthaPlayerLeavesDimension"
+    },
     "portalFrame": {
       "value": "CUSTOM:Overgrownsandstone"
     },

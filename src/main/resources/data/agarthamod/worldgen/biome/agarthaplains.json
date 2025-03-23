@@ -59,12 +59,12 @@
     [],
     [],
     [
-      "agarthamod:agarthaforest_tree",
-      "minecraft:forest_flowers",
+      "agarthamod:agarthaplains_tree",
       "minecraft:patch_tall_grass",
       "minecraft:patch_grass_forest",
-      "minecraft:trees_jungle",
-      "minecraft:patch_grass_jungle"
+      "minecraft:patch_grass_jungle",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin"
     ],
     [
       "minecraft:freeze_top_layer"

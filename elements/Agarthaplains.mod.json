@@ -2,7 +2,7 @@
   "_fv": 69,
   "_type": "biome",
   "definition": {
-    "name": "Agarthaforest",
+    "name": "Agarthaplains",
     "groundBlock": {
       "value": "CUSTOM:Overgrownsandstone"
     },
@@ -75,18 +75,18 @@
       "min": -1.0,
       "max": 1.0
     },
-    "treesPerChunk": 12,
-    "vanillaTreeType": "Big trees",
-    "treeType": 1,
-    "minHeight": 9,
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Default",
+    "treeType": 0,
+    "minHeight": 7,
     "treeStem": {
-      "value": "Blocks.LOG#0"
+      "value": ""
     },
     "treeBranch": {
-      "value": "Blocks.LEAVES#0"
+      "value": ""
     },
     "treeVines": {
-      "value": "Blocks.VINE"
+      "value": ""
     },
     "treeFruits": {
       "value": ""
@@ -95,17 +95,16 @@
       "Caves",
       "Ores",
       "FrozenTopLayer",
-      "ForestGrass",
-      "ForestFlowers",
       "JungleGrass",
       "PlainsTallGrass",
-      "JungleTreeForest"
+      "ForestGrass",
+      "ReedsAndPumpkins"
     ],
-    "spawnStronghold": true,
+    "spawnStronghold": false,
     "spawnMineshaft": false,
     "spawnMineshaftMesa": false,
     "spawnPillagerOutpost": false,
-    "villageType": "none",
+    "villageType": "plains",
     "spawnWoodlandMansion": false,
     "spawnJungleTemple": true,
     "spawnDesertPyramid": true,
