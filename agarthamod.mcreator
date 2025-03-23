@@ -171,6 +171,19 @@
         ]
       },
       "path": "~/Biome"
+    },
+    {
+      "name": "AgarthaMap",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agartha_map",
+      "metadata": {
+        "files": [
+          "src/main/java/de/jotibi/agarthamod/item/AgarthaMapItem.java",
+          "src/main/resources/assets/agarthamod/models/item/agartha_map.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -192,6 +205,7 @@
   "language_map": {
     "en_us": {
       "biome.agarthamod.agarthaforest": "Agarthaforest",
+      "item.agarthamod.agartha_map": "Agartha Map",
       "item.agarthamod.raw_milk": "Raw Milk",
       "item_group.agarthamod.agartha_mod": "Agartha Mod",
       "effect.agarthamod.positiv_energie": "Positive Energie",
