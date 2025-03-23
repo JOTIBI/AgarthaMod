@@ -90,16 +90,6 @@
       "path": "~/Rawmilk"
     },
     {
-      "name": "AgarthaMod",
-      "type": "tab",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "agartha_mod",
-      "metadata": {
-        "files": []
-      }
-    },
-    {
       "name": "PositivEnergieEffectStartedapplied",
       "type": "procedure",
       "compiles": true,
@@ -141,7 +131,6 @@
   "language_map": {
     "en_us": {
       "item.agarthamod.raw_milk": "Raw Milk",
-      "item_group.agarthamod.agartha_mod": "Agartha Mod",
       "effect.agarthamod.positiv_energie": "Positive Energie",
       "item.agarthamod.coolbottle": "Cool Bottle",
       "item.agarthamod.agartha": "Agartha Portal Igniter",
