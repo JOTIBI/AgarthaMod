@@ -26,7 +26,6 @@ public class AgarthamodModTabs {
 				tabData.accept(AgarthamodModBlocks.OVERGROWNSANDSTONE.get().asItem());
 				tabData.accept(AgarthamodModItems.RAW_MILK.get());
 				tabData.accept(AgarthamodModItems.COOLBOTTLE.get());
-				tabData.accept(AgarthamodModItems.AGARTHA_MAP.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
