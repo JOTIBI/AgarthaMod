@@ -12,49 +12,41 @@
  *
  * This class will be added in the mod root package.
 */
-package de.jotibi.agarthamod;
+package de.jotibi.agarthamod.procedures;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.Blocks;
-import net.neoforged.neoforge.event.server.ServerStartingEvent;
-import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.api.distmarker.OnlyIn;
-import net.neoforged.api.distmarker.Dist;
+import net.minecraft.world.level.block.state.BlockState;
 
-@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
-public class Overgrownsandstonewhenfire {
-	public Overgrownsandstonewhenfire() {
-	}
+import java.util.HashMap;
 
-	@SubscribeEvent
-	public static void init(FMLCommonSetupEvent event) {
-		new Overgrownsandstonewhenfire();
-	}
+public class OvergrownsandstoneTickProcedure {
+	private static final HashMap<BlockPos, Integer> fireTicks = new HashMap<>();
 
-	@OnlyIn(Dist.CLIENT)
-	@SubscribeEvent
-	public static void clientLoad(FMLClientSetupEvent event) {
-	}
-
-	@EventBusSubscriber
-	private static class OvergrownsandstonewhenfireForgeBusEvents {
-		@SubscribeEvent
-		public static void serverLoad(ServerStartingEvent event) {
-		}
-	}
-
-	// Diese Methode wird aus der Prozedur in MCreator aufgerufen
-	public static void onDestroyedByFire(LevelAccessor world, double x, double y, double z) {
+	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if (world == null)
 			return;
 
-		BlockPos pos = new BlockPos((int) x, (int) y, (int) z);
+		BlockPos blockPos = new BlockPos((int)x, (int)y, (int)z);
+		BlockPos abovePos = blockPos.above();
+		BlockState above = world.getBlockState(abovePos);
 
-		// Ersetze Block durch Sandstein
-		world.setBlock(pos, Blocks.SANDSTONE.defaultBlockState(), 3);
+		// Wenn Feuer über dem Block ist
+		if (above.getBlock() == Blocks.FIRE) {
+			int ticks = fireTicks.getOrDefault(blockPos, 0);
+			ticks++;
+
+			// Nach 100 Ticks (ca. 5 Sekunden bei 20 TPS)
+			if (ticks >= 100) {
+				world.setBlock(blockPos, Blocks.SANDSTONE.defaultBlockState(), 3);
+				fireTicks.remove(blockPos);
+			} else {
+				fireTicks.put(blockPos, ticks);
+			}
+		} else {
+			// Wenn kein Feuer mehr da ist, Timer zurücksetzen
+			fireTicks.remove(blockPos);
+		}
 	}
 }

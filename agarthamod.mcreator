@@ -29,7 +29,7 @@
     {
       "name": "Overgrownsandstonewhenfire",
       "type": "code",
-      "compiles": true,
+      "compiles": false,
       "locked_code": true,
       "registry_name": "overgrownsandstonewhenfire",
       "metadata": {
