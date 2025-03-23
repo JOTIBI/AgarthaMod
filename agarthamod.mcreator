@@ -18,10 +18,10 @@
       "registry_name": "overgrownsandstone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/agarthamod/blockstates/overgrownsandstone.json",
+          "src/main/resources/assets/agarthamod/models/block/overgrownsandstone.json",
           "src/main/resources/assets/agarthamod/models/item/overgrownsandstone.json",
           "src/main/resources/data/agarthamod/loot_table/blocks/overgrownsandstone.json",
-          "src/main/resources/assets/agarthamod/models/block/overgrownsandstone.json",
+          "src/main/resources/assets/agarthamod/blockstates/overgrownsandstone.json",
           "src/main/java/de/jotibi/agarthamod/block/OvergrownsandstoneBlock.java"
         ]
       }
@@ -50,7 +50,8 @@
           "src/main/java/de/jotibi/agarthamod/item/RawMilkItem.java",
           "src/main/resources/assets/agarthamod/models/item/raw_milk.json"
         ]
-      }
+      },
+      "path": "~/Rawmilk"
     },
     {
       "name": "RawMilkPropertyValueProvider",
@@ -68,7 +69,48 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Rawmilk"
+    },
+    {
+      "name": "Coolbottle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coolbottle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/agarthamod/models/item/coolbottle.json",
+          "src/main/java/de/jotibi/agarthamod/item/CoolbottleItem.java"
+        ]
+      },
+      "path": "~/Rawmilk"
+    },
+    {
+      "name": "Coolbottlecrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coolbottlecrafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/agarthamod/recipe/coolbottlecrafting.json"
+        ]
+      },
+      "path": "~/Rawmilk"
+    },
+    {
+      "name": "Rawmilkbrewing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawmilkbrewing",
+      "metadata": {
+        "files": [
+          "src/main/java/de/jotibi/agarthamod/recipe/brewing/RawmilkbrewingBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Rawmilk"
     }
   ],
   "variable_elements": [],
@@ -83,12 +125,18 @@
     "en_us": {
       "item_group.agarthamod.agartha": "Agartha",
       "item.agarthamod.raw_milk": "Raw Milk",
+      "item.agarthamod.coolbottle": "Cool Bottle",
       "block.agarthamod.overgrownsandstone": "Overgrown Sandstone"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Rawmilk",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "agarthamod",
