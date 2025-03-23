@@ -18,7 +18,6 @@ import de.jotibi.agarthamod.AgarthamodMod;
 
 public class AgarthamodModBlocks {
 	public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(AgarthamodMod.MODID);
-	public static final DeferredBlock<Block> AGARTHA = REGISTRY.register("agartha", AgarthaBlock::new);
 	public static final DeferredBlock<Block> OVERGROWNSANDSTONE = REGISTRY.register("overgrownsandstone", OvergrownsandstoneBlock::new);
 
 	// Start of user code block custom blocks
