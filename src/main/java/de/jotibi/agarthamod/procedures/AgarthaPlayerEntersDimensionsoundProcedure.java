@@ -18,7 +18,7 @@ public class AgarthaPlayerEntersDimensionsoundProcedure {
 			_entity.addEffect(new MobEffectInstance(AgarthamodModMobEffects.POSITIV_ENERGIE, 999999, 5));
 		if (world instanceof Level _level) {
 			if (_level.isClientSide()) {
-				_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("agarthamod:agarthamusic")), SoundSource.NEUTRAL, 1, 1, false);
+				_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("agarthamod:agarthamusic")), SoundSource.NEUTRAL, 5, 1, false);
 			}
 		}
 	}
