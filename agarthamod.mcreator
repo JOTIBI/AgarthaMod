@@ -135,7 +135,7 @@
     {
       "name": "Agartha",
       "type": "dimension",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "agartha",
       "metadata": {
@@ -234,14 +234,28 @@
       "path": "~/Dimension"
     },
     {
-      "name": "AgarthaPlayerEntersDimensionsound",
-      "type": "procedure",
-      "compiles": false,
+      "name": "AgarthaKey",
+      "type": "item",
+      "compiles": true,
       "locked_code": false,
-      "registry_name": "agartha_player_enters_dimensionsound",
+      "registry_name": "agartha_key",
       "metadata": {
         "files": [
-          "src/main/java/de/jotibi/agarthamod/procedures/AgarthaPlayerEntersDimensionsoundProcedure.java"
+          "src/main/resources/assets/agarthamod/models/item/agartha_key.json",
+          "src/main/java/de/jotibi/agarthamod/item/AgarthaKeyItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "AgarthaPlayerEntersDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agartha_player_enters_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/de/jotibi/agarthamod/procedures/AgarthaPlayerEntersDimensionProcedure.java"
         ],
         "dependencies": [
           {
@@ -267,20 +281,6 @@
         ]
       },
       "path": "~/Dimension"
-    },
-    {
-      "name": "AgarthaKey",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "agartha_key",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/agarthamod/models/item/agartha_key.json",
-          "src/main/java/de/jotibi/agarthamod/item/AgarthaKeyItem.java"
-        ]
-      },
-      "path": "~/Items"
     }
   ],
   "variable_elements": [],

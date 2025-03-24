@@ -16,7 +16,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.client.renderer.DimensionSpecialEffects;
 
 import de.jotibi.agarthamod.procedures.AgarthaPlayerLeavesDimensionProcedure;
-import de.jotibi.agarthamod.procedures.AgarthaPlayerEntersDimensionsoundProcedure;
+import de.jotibi.agarthamod.procedures.AgarthaPlayerEntersDimensionProcedure;
 
 @EventBusSubscriber
 public class AgarthaDimension {
@@ -50,7 +50,7 @@ public class AgarthaDimension {
 			AgarthaPlayerLeavesDimensionProcedure.execute(entity);
 		}
 		if (event.getTo() == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("agarthamod:agartha"))) {
-			AgarthaPlayerEntersDimensionsoundProcedure.execute(world, x, y, z, entity);
+			AgarthaPlayerEntersDimensionProcedure.execute(world, x, y, z, entity);
 		}
 	}
 }
