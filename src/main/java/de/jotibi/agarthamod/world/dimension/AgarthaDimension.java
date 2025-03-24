@@ -50,7 +50,7 @@ public class AgarthaDimension {
 			AgarthaPlayerLeavesDimensionProcedure.execute(entity);
 		}
 		if (event.getTo() == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("agarthamod:agartha"))) {
-			AgarthaPlayerEntersDimensionsoundProcedure.execute(entity);
+			AgarthaPlayerEntersDimensionsoundProcedure.execute(world, x, y, z, entity);
 		}
 	}
 }
