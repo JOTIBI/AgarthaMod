@@ -236,7 +236,7 @@
     {
       "name": "AgarthaPlayerEntersDimensionsound",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "agartha_player_enters_dimensionsound",
       "metadata": {
