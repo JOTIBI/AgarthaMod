@@ -26,6 +26,6 @@ public class AgarthaMasterKeyItem extends Item {
 	@Override
 	public void onCraftedBy(ItemStack itemstack, Level world, Player entity) {
 		super.onCraftedBy(itemstack, world, entity);
-		AgarthaMasterKeyItemIsCraftedsmeltedProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ());
+		AgarthaMasterKeyItemIsCraftedsmeltedProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
 	}
 }
