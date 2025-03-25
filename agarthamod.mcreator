@@ -355,6 +355,23 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "UFOcontrol",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uf_ocontrol",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/agarthamod/blockstates/uf_ocontrol.json",
+          "src/main/resources/data/agarthamod/loot_table/blocks/uf_ocontrol.json",
+          "src/main/resources/assets/agarthamod/models/block/uf_ocontrol.json",
+          "src/main/java/de/jotibi/agarthamod/block/UFOcontrolBlock.java",
+          "src/main/resources/assets/agarthamod/models/item/uf_ocontrol.json"
+        ]
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [],
@@ -405,6 +422,7 @@
       "biome.agarthamod.agarthaplains": "Agarthaplains",
       "item.agarthamod.coolbottle": "Cool Bottle",
       "item.agarthamod.agartha": "Agartha Portal Igniter",
+      "block.agarthamod.uf_ocontrol": "UFO Controlstation",
       "biome.agarthamod.agarthaforest": "Agarthaforest",
       "advancements.agartha_master_key_advancement.title": "The Key to Success",
       "item_group.agarthamod.agartha_mod": "Agartha Mod",
@@ -415,6 +433,14 @@
   "foldersRoot": {
     "name": "~",
     "children": [
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Advancedments",
+        "children": []
+      },
       {
         "name": "Effekte",
         "children": []
@@ -437,14 +463,6 @@
       },
       {
         "name": "Dimension",
-        "children": []
-      },
-      {
-        "name": "Items",
-        "children": []
-      },
-      {
-        "name": "Advancedments",
         "children": []
       }
     ]

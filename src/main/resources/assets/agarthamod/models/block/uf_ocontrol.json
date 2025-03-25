@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/gray_concrete_powder",
+    "up": "minecraft:block/beacon",
+    "north": "agarthamod:block/ufo_sterung",
+    "east": "agarthamod:block/ufo_sterung",
+    "south": "agarthamod:block/ufo_sterung",
+    "west": "agarthamod:block/ufo_sterung",
+    "particle": "minecraft:block/gray_concrete_powder"
+  },
+  "render_type": "solid"
+}
