@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "agartha",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "agarthamod:raw_milk"
+    },
+    {
+      "item": "agarthamod:agartha_key"
+    },
+    {
+      "item": "agarthamod:agartha_map"
+    }
+  ],
+  "result": {
+    "id": "agarthamod:agartha_master_key",
+    "count": 1
+  }
+}
