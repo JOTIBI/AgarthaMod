@@ -28,9 +28,6 @@
     "sleepResult": "ALLOW",
     "hasSkyLight": false,
     "imitateOverworldBehaviour": true,
-    "onPlayerEntersDimension": {
-      "name": "AgarthaPlayerEntersDimension"
-    },
     "onPlayerLeavesDimension": {
       "name": "AgarthaPlayerLeavesDimension"
     },
