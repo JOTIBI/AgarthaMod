@@ -29,6 +29,7 @@ public class AgarthamodModItems {
 	public static final DeferredItem<Item> AGARTHA_MAP = REGISTRY.register("agartha_map", AgarthaMapItem::new);
 	public static final DeferredItem<Item> AGARTHA_KEY = REGISTRY.register("agartha_key", AgarthaKeyItem::new);
 	public static final DeferredItem<Item> AGARTHA_MASTER_KEY = REGISTRY.register("agartha_master_key", AgarthaMasterKeyItem::new);
+	public static final DeferredItem<Item> UF_OCONTROL = block(AgarthamodModBlocks.UF_OCONTROL);
 
 	// Start of user code block custom items
 	// End of user code block custom items
