@@ -75,10 +75,10 @@
       "min": -1.0,
       "max": 1.0
     },
-    "treesPerChunk": 12,
-    "vanillaTreeType": "Big trees",
+    "treesPerChunk": 10,
+    "vanillaTreeType": "Mega spruce trees",
     "treeType": 1,
-    "minHeight": 9,
+    "minHeight": 7,
     "treeStem": {
       "value": "Blocks.LOG#0"
     },
@@ -99,7 +99,7 @@
       "ForestFlowers",
       "JungleGrass",
       "PlainsTallGrass",
-      "JungleTreeForest"
+      "TaigaRocks"
     ],
     "spawnStronghold": true,
     "spawnMineshaft": false,
