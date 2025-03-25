@@ -57,6 +57,9 @@
     "enablePortal": true,
     "portalMakeCondition": {
       "name": "AgarthaCanMakePortal"
+    },
+    "portalUseCondition": {
+      "name": "AgarthaCanMakePortal"
     }
   }
 }
