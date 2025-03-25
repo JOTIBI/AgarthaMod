@@ -8,10 +8,10 @@
       "registry_name": "overgrownsandstone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/agarthamod/models/block/overgrownsandstone.json",
+          "src/main/resources/assets/agarthamod/blockstates/overgrownsandstone.json",
           "src/main/resources/assets/agarthamod/models/item/overgrownsandstone.json",
           "src/main/resources/data/agarthamod/loot_table/blocks/overgrownsandstone.json",
-          "src/main/resources/assets/agarthamod/blockstates/overgrownsandstone.json",
+          "src/main/resources/assets/agarthamod/models/block/overgrownsandstone.json",
           "src/main/java/de/jotibi/agarthamod/block/OvergrownsandstoneBlock.java"
         ]
       },
@@ -163,10 +163,10 @@
       "registry_name": "agarthaforest",
       "metadata": {
         "files": [
-          "src/main/resources/data/agarthamod/worldgen/placed_feature/agarthaforest_tree.json",
-          "src/main/java/de/jotibi/agarthamod/world/features/treedecorators/AgarthaforestLeaveDecorator.java",
           "src/main/resources/data/agarthamod/worldgen/configured_feature/agarthaforest_tree.json",
           "src/main/java/de/jotibi/agarthamod/world/features/treedecorators/AgarthaforestTrunkDecorator.java",
+          "src/main/resources/data/agarthamod/worldgen/placed_feature/agarthaforest_tree.json",
+          "src/main/java/de/jotibi/agarthamod/world/features/treedecorators/AgarthaforestLeaveDecorator.java",
           "src/main/resources/data/agarthamod/worldgen/biome/agarthaforest.json"
         ]
       },
@@ -213,9 +213,9 @@
       "registry_name": "agarthaplains",
       "metadata": {
         "files": [
-          "src/main/resources/data/agarthamod/worldgen/configured_feature/agarthaplains_tree.json",
           "src/main/resources/data/agarthamod/worldgen/placed_feature/agarthaplains_tree.json",
-          "src/main/resources/data/agarthamod/worldgen/biome/agarthaplains.json"
+          "src/main/resources/data/agarthamod/worldgen/biome/agarthaplains.json",
+          "src/main/resources/data/agarthamod/worldgen/configured_feature/agarthaplains_tree.json"
         ]
       },
       "path": "~/Biome"
@@ -241,8 +241,8 @@
       "registry_name": "agartha_key",
       "metadata": {
         "files": [
-          "src/main/resources/assets/agarthamod/models/item/agartha_key.json",
-          "src/main/java/de/jotibi/agarthamod/item/AgarthaKeyItem.java"
+          "src/main/java/de/jotibi/agarthamod/item/AgarthaKeyItem.java",
+          "src/main/resources/assets/agarthamod/models/item/agartha_key.json"
         ]
       },
       "path": "~/Items"
