@@ -140,17 +140,17 @@
       "registry_name": "agartha",
       "metadata": {
         "files": [
-          "src/main/java/de/jotibi/agarthamod/world/teleporter/AgarthaTeleporter.java",
-          "src/main/resources/data/agarthamod/dimension_type/agartha.json",
           "src/main/java/de/jotibi/agarthamod/world/teleporter/AgarthaPortalShape.java",
-          "src/main/resources/data/agarthamod/dimension/agartha.json",
           "src/main/resources/assets/agarthamod/models/block/agartha_portal_ew.json",
-          "src/main/java/de/jotibi/agarthamod/block/AgarthaPortalBlock.java",
+          "src/main/resources/assets/agarthamod/models/item/agartha.json",
+          "src/main/resources/data/agarthamod/dimension_type/agartha.json",
+          "src/main/java/de/jotibi/agarthamod/world/dimension/AgarthaDimension.java",
+          "src/main/resources/data/agarthamod/dimension/agartha.json",
+          "src/main/java/de/jotibi/agarthamod/world/teleporter/AgarthaTeleporter.java",
           "src/main/resources/assets/agarthamod/blockstates/agartha_portal.json",
           "src/main/resources/assets/agarthamod/models/block/agartha_portal_ns.json",
-          "src/main/java/de/jotibi/agarthamod/world/dimension/AgarthaDimension.java",
-          "src/main/java/de/jotibi/agarthamod/item/AgarthaItem.java",
-          "src/main/resources/assets/agarthamod/models/item/agartha.json"
+          "src/main/java/de/jotibi/agarthamod/block/AgarthaPortalBlock.java",
+          "src/main/java/de/jotibi/agarthamod/item/AgarthaItem.java"
         ]
       },
       "path": "~/Dimension"
@@ -231,7 +231,7 @@
           "src/main/resources/data/agarthamod/advancement/welcometoagartha.json"
         ]
       },
-      "path": "~/Dimension"
+      "path": "~/Advancedments"
     },
     {
       "name": "AgarthaKey",
@@ -291,6 +291,39 @@
           "src/main/resources/data/agarthamod/recipe/agartha_crafting_recipe.json"
         ]
       }
+    },
+    {
+      "name": "AgarthaMasterKeyAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agartha_master_key_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/agarthamod/advancement/agartha_master_key_advancement.json"
+        ]
+      },
+      "path": "~/Advancedments"
+    },
+    {
+      "name": "AgarthaCanMakePortal",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agartha_can_make_portal",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/de/jotibi/agarthamod/procedures/AgarthaCanMakePortalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dimension"
     }
   ],
   "variable_elements": [],
@@ -337,10 +370,12 @@
       "effect.agarthamod.positiv_energie": "Positive Energie",
       "subtitles.agarthamusic": "",
       "item.agarthamod.agartha_master_key": "Agartha Master Key",
+      "advancements.agartha_master_key_advancement.descr": "Hold the Masterkey to Agartha",
       "biome.agarthamod.agarthaplains": "Agarthaplains",
       "item.agarthamod.coolbottle": "Cool Bottle",
       "item.agarthamod.agartha": "Agartha Portal Igniter",
       "biome.agarthamod.agarthaforest": "Agarthaforest",
+      "advancements.agartha_master_key_advancement.title": "The Key to Success",
       "item_group.agarthamod.agartha_mod": "Agartha Mod",
       "block.agarthamod.overgrownsandstone": "Overgrown Sandstone",
       "advancements.welcometoagartha.descr": "You found Agartha!"
@@ -375,6 +410,10 @@
       },
       {
         "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Advancedments",
         "children": []
       }
     ]

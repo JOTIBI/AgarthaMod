@@ -11,6 +11,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.core.BlockPos;
 
+import de.jotibi.agarthamod.procedures.AgarthaCanMakePortalProcedure;
 import de.jotibi.agarthamod.block.AgarthaPortalBlock;
 
 public class AgarthaItem extends Item {
@@ -31,7 +32,7 @@ public class AgarthaItem extends Item {
 			int y = pos.getY();
 			int z = pos.getZ();
 			boolean success = false;
-			if (world.isEmptyBlock(pos) && true) {
+			if (world.isEmptyBlock(pos) && AgarthaCanMakePortalProcedure.execute(entity)) {
 				AgarthaPortalBlock.portalSpawn(world, pos);
 				itemstack.hurtAndBreak(1, entity, LivingEntity.getSlotForHand(context.getHand()));
 				success = true;

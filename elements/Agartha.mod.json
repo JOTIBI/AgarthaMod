@@ -54,6 +54,9 @@
     ],
     "texture": "minecraft:flint_and_steel",
     "portalTexture": "minecraft:blue_ice",
-    "enablePortal": true
+    "enablePortal": true,
+    "portalMakeCondition": {
+      "name": "AgarthaCanMakePortal"
+    }
   }
 }
