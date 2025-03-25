@@ -281,6 +281,32 @@
         ]
       },
       "path": "~/Dimension"
+    },
+    {
+      "name": "AgarthaMasterKey",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agartha_master_key",
+      "metadata": {
+        "files": [
+          "src/main/java/de/jotibi/agarthamod/item/AgarthaMasterKeyItem.java",
+          "src/main/resources/assets/agarthamod/models/item/agartha_master_key.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "AgarthaCraftingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agartha_crafting_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/agarthamod/recipe/agartha_crafting_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -326,6 +352,7 @@
       "item.agarthamod.raw_milk": "Raw Milk",
       "effect.agarthamod.positiv_energie": "Positive Energie",
       "subtitles.agarthamusic": "",
+      "item.agarthamod.agartha_master_key": "Agartha Master Key",
       "biome.agarthamod.agarthaplains": "Agarthaplains",
       "item.agarthamod.coolbottle": "Cool Bottle",
       "item.agarthamod.agartha": "Agartha Portal Igniter",
