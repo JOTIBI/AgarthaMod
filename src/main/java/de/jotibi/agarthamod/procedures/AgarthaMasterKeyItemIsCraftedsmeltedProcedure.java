@@ -23,8 +23,8 @@ public class AgarthaMasterKeyItemIsCraftedsmeltedProcedure {
 			}
 		}
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 320, 10));
+			_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 340, 10));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 320, 10));
+			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 340, 15));
 	}
 }
