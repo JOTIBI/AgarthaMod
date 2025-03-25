@@ -324,6 +324,37 @@
         ]
       },
       "path": "~/Dimension"
+    },
+    {
+      "name": "AgarthaMasterKeyItemIsCraftedsmelted",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agartha_master_key_item_is_craftedsmelted",
+      "metadata": {
+        "files": [
+          "src/main/java/de/jotibi/agarthamod/procedures/AgarthaMasterKeyItemIsCraftedsmeltedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
