@@ -135,7 +135,7 @@
     {
       "name": "Agartha",
       "type": "dimension",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "agartha",
       "metadata": {
@@ -250,7 +250,7 @@
     {
       "name": "AgarthaPlayerEntersDimension",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "agartha_player_enters_dimension",
       "metadata": {
