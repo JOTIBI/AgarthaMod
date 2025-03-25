@@ -98,7 +98,9 @@
       "JungleGrass",
       "PlainsTallGrass",
       "ForestGrass",
-      "ReedsAndPumpkins"
+      "ReedsAndPumpkins",
+      "TaigaRocks",
+      "ForestFlowers"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,
