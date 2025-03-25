@@ -376,19 +376,6 @@
         ]
       },
       "path": "~/Mobs"
-    },
-    {
-      "name": "Tw",
-      "type": "command",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tw",
-      "metadata": {
-        "files": [
-          "src/main/java/de/jotibi/agarthamod/command/TwCommand.java"
-        ]
-      },
-      "path": "~/Items"
     }
   ],
   "variable_elements": [],
