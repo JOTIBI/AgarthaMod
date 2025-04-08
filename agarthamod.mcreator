@@ -411,6 +411,21 @@
         "files": []
       },
       "path": "~/Trades"
+    },
+    {
+      "name": "Ufo",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ufo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/agarthamod/worldgen/structure/ufo.json",
+          "src/main/resources/data/agarthamod/worldgen/template_pool/ufo.json",
+          "src/main/resources/data/agarthamod/worldgen/structure_set/ufo.json"
+        ]
+      },
+      "path": "~/strukturen"
     }
   ],
   "variable_elements": [],
@@ -507,6 +522,10 @@
       },
       {
         "name": "Trades",
+        "children": []
+      },
+      {
+        "name": "strukturen",
         "children": []
       }
     ]
