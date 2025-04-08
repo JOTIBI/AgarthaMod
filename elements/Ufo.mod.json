@@ -9,8 +9,8 @@
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 3,
-    "separation": 1,
+    "spacing": 5,
+    "separation": 2,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:Agarthaforest"
@@ -19,9 +19,9 @@
         "value": "CUSTOM:Agarthaplains"
       }
     ],
-    "terrainAdaptation": "beard_thin",
+    "terrainAdaptation": "beard_box",
     "generationStep": "SURFACE_STRUCTURES",
-    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "surfaceDetectionType": "WORLD_SURFACE",
     "useStartHeight": false,
     "startHeightProviderType": "UNIFORM",
     "startHeightMin": 0,

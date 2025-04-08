@@ -8,10 +8,10 @@
       "registry_name": "overgrownsandstone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/agarthamod/blockstates/overgrownsandstone.json",
+          "src/main/resources/assets/agarthamod/models/block/overgrownsandstone.json",
           "src/main/resources/assets/agarthamod/models/item/overgrownsandstone.json",
           "src/main/resources/data/agarthamod/loot_table/blocks/overgrownsandstone.json",
-          "src/main/resources/assets/agarthamod/models/block/overgrownsandstone.json",
+          "src/main/resources/assets/agarthamod/blockstates/overgrownsandstone.json",
           "src/main/java/de/jotibi/agarthamod/block/OvergrownsandstoneBlock.java"
         ]
       },
@@ -141,17 +141,17 @@
       "registry_name": "agartha",
       "metadata": {
         "files": [
-          "src/main/java/de/jotibi/agarthamod/world/teleporter/AgarthaPortalShape.java",
-          "src/main/resources/assets/agarthamod/models/block/agartha_portal_ew.json",
-          "src/main/resources/assets/agarthamod/models/item/agartha.json",
-          "src/main/resources/data/agarthamod/dimension_type/agartha.json",
-          "src/main/java/de/jotibi/agarthamod/world/dimension/AgarthaDimension.java",
-          "src/main/resources/data/agarthamod/dimension/agartha.json",
           "src/main/java/de/jotibi/agarthamod/world/teleporter/AgarthaTeleporter.java",
+          "src/main/resources/data/agarthamod/dimension_type/agartha.json",
+          "src/main/java/de/jotibi/agarthamod/world/teleporter/AgarthaPortalShape.java",
+          "src/main/resources/data/agarthamod/dimension/agartha.json",
+          "src/main/resources/assets/agarthamod/models/block/agartha_portal_ew.json",
+          "src/main/java/de/jotibi/agarthamod/block/AgarthaPortalBlock.java",
           "src/main/resources/assets/agarthamod/blockstates/agartha_portal.json",
           "src/main/resources/assets/agarthamod/models/block/agartha_portal_ns.json",
-          "src/main/java/de/jotibi/agarthamod/block/AgarthaPortalBlock.java",
-          "src/main/java/de/jotibi/agarthamod/item/AgarthaItem.java"
+          "src/main/java/de/jotibi/agarthamod/world/dimension/AgarthaDimension.java",
+          "src/main/java/de/jotibi/agarthamod/item/AgarthaItem.java",
+          "src/main/resources/assets/agarthamod/models/item/agartha.json"
         ]
       },
       "path": "~/Dimension"
@@ -164,10 +164,10 @@
       "registry_name": "agarthaforest",
       "metadata": {
         "files": [
-          "src/main/resources/data/agarthamod/worldgen/configured_feature/agarthaforest_tree.json",
-          "src/main/java/de/jotibi/agarthamod/world/features/treedecorators/AgarthaforestTrunkDecorator.java",
           "src/main/resources/data/agarthamod/worldgen/placed_feature/agarthaforest_tree.json",
           "src/main/java/de/jotibi/agarthamod/world/features/treedecorators/AgarthaforestLeaveDecorator.java",
+          "src/main/resources/data/agarthamod/worldgen/configured_feature/agarthaforest_tree.json",
+          "src/main/java/de/jotibi/agarthamod/world/features/treedecorators/AgarthaforestTrunkDecorator.java",
           "src/main/resources/data/agarthamod/worldgen/biome/agarthaforest.json"
         ]
       },
@@ -214,9 +214,9 @@
       "registry_name": "agarthaplains",
       "metadata": {
         "files": [
+          "src/main/resources/data/agarthamod/worldgen/configured_feature/agarthaplains_tree.json",
           "src/main/resources/data/agarthamod/worldgen/placed_feature/agarthaplains_tree.json",
-          "src/main/resources/data/agarthamod/worldgen/biome/agarthaplains.json",
-          "src/main/resources/data/agarthamod/worldgen/configured_feature/agarthaplains_tree.json"
+          "src/main/resources/data/agarthamod/worldgen/biome/agarthaplains.json"
         ]
       },
       "path": "~/Biome"
@@ -242,8 +242,8 @@
       "registry_name": "agartha_key",
       "metadata": {
         "files": [
-          "src/main/java/de/jotibi/agarthamod/item/AgarthaKeyItem.java",
-          "src/main/resources/assets/agarthamod/models/item/agartha_key.json"
+          "src/main/resources/assets/agarthamod/models/item/agartha_key.json",
+          "src/main/java/de/jotibi/agarthamod/item/AgarthaKeyItem.java"
         ]
       },
       "path": "~/Items"
@@ -370,11 +370,11 @@
       "registry_name": "uf_ocontrol",
       "metadata": {
         "files": [
-          "src/main/resources/assets/agarthamod/blockstates/uf_ocontrol.json",
-          "src/main/resources/data/agarthamod/loot_table/blocks/uf_ocontrol.json",
           "src/main/resources/assets/agarthamod/models/block/uf_ocontrol.json",
-          "src/main/java/de/jotibi/agarthamod/block/UFOcontrolBlock.java",
-          "src/main/resources/assets/agarthamod/models/item/uf_ocontrol.json"
+          "src/main/resources/data/agarthamod/loot_table/blocks/uf_ocontrol.json",
+          "src/main/resources/assets/agarthamod/blockstates/uf_ocontrol.json",
+          "src/main/resources/assets/agarthamod/models/item/uf_ocontrol.json",
+          "src/main/java/de/jotibi/agarthamod/block/UFOcontrolBlock.java"
         ]
       },
       "path": "~/Bloecke"
