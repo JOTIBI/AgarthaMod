@@ -130,7 +130,8 @@
       "registry_name": "agartha_mod",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/Miscs"
     },
     {
       "name": "Agartha",
@@ -290,7 +291,8 @@
         "files": [
           "src/main/resources/data/agarthamod/recipe/agartha_crafting_recipe.json"
         ]
-      }
+      },
+      "path": "~/Miscs"
     },
     {
       "name": "AgarthaMasterKeyAdvancement",
@@ -421,11 +423,80 @@
       "metadata": {
         "files": [
           "src/main/resources/data/agarthamod/worldgen/structure/ufo.json",
-          "src/main/resources/data/agarthamod/worldgen/template_pool/ufo.json",
-          "src/main/resources/data/agarthamod/worldgen/structure_set/ufo.json"
+          "src/main/resources/data/agarthamod/worldgen/structure_set/ufo.json",
+          "src/main/resources/data/agarthamod/worldgen/template_pool/ufo.json"
         ]
       },
       "path": "~/strukturen"
+    },
+    {
+      "name": "Guivillager1",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guivillager_1",
+      "metadata": {
+        "files": [
+          "src/main/java/de/jotibi/agarthamod/world/inventory/Guivillager1Menu.java",
+          "src/main/java/de/jotibi/agarthamod/client/gui/Guivillager1Screen.java"
+        ]
+      },
+      "path": "~/Miscs"
+    },
+    {
+      "name": "MrHbuttomclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mr_hbuttonclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/de/jotibi/agarthamod/procedures/MrHbuttomclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Miscs"
+    },
+    {
+      "name": "Stalindamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stalindamage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/agarthamod/damage_type/stalindamage.json"
+        ]
+      },
+      "path": "~/Miscs"
+    },
+    {
+      "name": "Stalinbuttonclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stalinbuttonclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/de/jotibi/agarthamod/procedures/StalinbuttonclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Miscs"
     }
   ],
   "variable_elements": [],
@@ -465,23 +536,29 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.agarthamod.agartha_map": "Agartha Map",
       "advancements.welcometoagartha.title": "Welcome to Agartha",
-      "item.agarthamod.agartha_key": "Agartha Key",
       "item.agarthamod.raw_milk": "Raw Milk",
-      "effect.agarthamod.positiv_energie": "Positive Energie",
-      "subtitles.agarthamusic": "",
-      "item.agarthamod.agartha_master_key": "Agartha Master Key",
+      "death.attack.stalindamage.player": "%1$s thought Stalin is the Top-Guy",
       "advancements.agartha_master_key_advancement.descr": "Hold the Masterkey to Agartha",
-      "biome.agarthamod.agarthaplains": "Agarthaplains",
+      "item.agarthamod.agartha_master_key": "Agartha Master Key",
+      "subtitles.agarthamusic": "",
       "item.agarthamod.coolbottle": "Cool Bottle",
+      "gui.agarthamod.guivillager_1.label_who_is_the_topguy": "Who is the Top-Guy?",
+      "entity.minecraft.villager.agarthamod.agarthakeyvillager": "Agarthakeyvillager",
+      "item.agarthamod.agartha_map": "Agartha Map",
+      "item.agarthamod.agartha_key": "Agartha Key",
+      "death.attack.stalindamage": "%1$s thought Stalin is the Top-Guy",
+      "effect.agarthamod.positiv_energie": "Positive Energie",
+      "biome.agarthamod.agarthaplains": "Agarthaplains",
+      "gui.agarthamod.guivillager_1.button_mr_h": "Mr. H",
       "item.agarthamod.agartha": "Agartha Portal Igniter",
       "block.agarthamod.uf_ocontrol": "UFO Controlstation",
+      "gui.agarthamod.guivillager_1.button_stalin": "Stalin",
       "biome.agarthamod.agarthaforest": "Agarthaforest",
       "advancements.agartha_master_key_advancement.title": "The Key to Success",
       "item_group.agarthamod.agartha_mod": "Agartha Mod",
+      "death.attack.stalindamage.item": "%1$s thought Stalin is the Top-Guy",
       "block.agarthamod.overgrownsandstone": "Overgrown Sandstone",
-      "entity.minecraft.villager.agarthamod.agarthakeyvillager": "Agarthakeyvillager",
       "advancements.welcometoagartha.descr": "You found Agartha!"
     }
   },
@@ -526,6 +603,10 @@
       },
       {
         "name": "strukturen",
+        "children": []
+      },
+      {
+        "name": "Miscs",
         "children": []
       }
     ]

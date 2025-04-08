@@ -29,6 +29,7 @@ import de.jotibi.agarthamod.init.AgarthamodModVillagerProfessions;
 import de.jotibi.agarthamod.init.AgarthamodModTabs;
 import de.jotibi.agarthamod.init.AgarthamodModSounds;
 import de.jotibi.agarthamod.init.AgarthamodModMobEffects;
+import de.jotibi.agarthamod.init.AgarthamodModMenus;
 import de.jotibi.agarthamod.init.AgarthamodModItems;
 import de.jotibi.agarthamod.init.AgarthamodModBlocks;
 
@@ -50,6 +51,7 @@ public class AgarthamodMod {
 		AgarthamodModTabs.REGISTRY.register(modEventBus);
 
 		AgarthamodModMobEffects.REGISTRY.register(modEventBus);
+		AgarthamodModMenus.REGISTRY.register(modEventBus);
 
 		AgarthamodModVillagerProfessions.PROFESSIONS.register(modEventBus);
 

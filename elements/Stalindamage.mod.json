@@ -1,0 +1,12 @@
+{
+  "_fv": 69,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.1,
+    "scaling": "never",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s thought Stalin is the Top-Guy",
+    "itemDeathMessage": "%1$s thought Stalin is the Top-Guy",
+    "playerDeathMessage": "%1$s thought Stalin is the Top-Guy"
+  }
+}
