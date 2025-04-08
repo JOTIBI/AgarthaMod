@@ -52,7 +52,7 @@
         "value": "TOOLS"
       }
     ],
-    "texture": "minecraft:flint_and_steel",
+    "texture": "masterkey",
     "portalTexture": "minecraft:blue_ice",
     "enablePortal": true,
     "portalMakeCondition": {
