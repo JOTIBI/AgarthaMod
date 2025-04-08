@@ -15,5 +15,6 @@
   "advancements.agartha_master_key_advancement.title": "The Key to Success",
   "item_group.agarthamod.agartha_mod": "Agartha Mod",
   "block.agarthamod.overgrownsandstone": "Overgrown Sandstone",
+  "entity.minecraft.villager.agarthamod.agarthakeyvillager": "Agarthakeyvillager",
   "advancements.welcometoagartha.descr": "You found Agartha!"
 }

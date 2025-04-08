@@ -375,7 +375,42 @@
           "src/main/resources/assets/agarthamod/models/item/uf_ocontrol.json"
         ]
       },
+      "path": "~/Bloecke"
+    },
+    {
+      "name": "Agarthamapvillagertrade",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agarthamapvillagertrade",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Trades"
+    },
+    {
+      "name": "Agarthakeyvillager",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agarthakeyvillager",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/agarthamod/textures/entity/villager/profession/agarthakeyvillager.png.mcmeta"
+        ]
+      },
       "path": "~/Mobs"
+    },
+    {
+      "name": "Agarthakeyvillagertrade",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agarthakeyvillagertrade",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Trades"
     }
   ],
   "variable_elements": [],
@@ -431,6 +466,7 @@
       "advancements.agartha_master_key_advancement.title": "The Key to Success",
       "item_group.agarthamod.agartha_mod": "Agartha Mod",
       "block.agarthamod.overgrownsandstone": "Overgrown Sandstone",
+      "entity.minecraft.villager.agarthamod.agarthakeyvillager": "Agarthakeyvillager",
       "advancements.welcometoagartha.descr": "You found Agartha!"
     }
   },
@@ -467,6 +503,10 @@
       },
       {
         "name": "Dimension",
+        "children": []
+      },
+      {
+        "name": "Trades",
         "children": []
       }
     ]

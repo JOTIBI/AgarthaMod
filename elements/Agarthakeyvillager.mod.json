@@ -1,0 +1,16 @@
+{
+  "_fv": 69,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Agarthakeyvillager",
+    "pointOfInterest": {
+      "value": "CUSTOM:UFOcontrol"
+    },
+    "actionSound": {
+      "value": "block.anvil.fall"
+    },
+    "hat": "Full",
+    "professionTextureFile": "hitler-villager.png",
+    "zombifiedProfessionTextureFile": "hitler-villager.png"
+  }
+}
